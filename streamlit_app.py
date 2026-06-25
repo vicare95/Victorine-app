@@ -34,4 +34,4 @@ if st.button("Submit Log"):
             st.success(f"Successfully logged {action} for {selected_caregiver}! 🎉")
             st.balloons()
         except Exception as e:
-            st.error(f"Error connecting to Google Sheets: {e}"]
+            st.error(f"Error connecting to Google Sheets: {e}")
